@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>CV Germán Oliva Eraso</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <header>
+				<div class="w3-card-4">
+					<header class="w3-container w3-light-blue">
+						<h1>Curriculum Vitae</h1>
+						<hr>
+					</header>
+					
+					<div class="w3-container">
+						
+						<img src="images/fotografia-cv-german-oliva.jpeg" width="12%" alt="cv-fotografia" class="w3-left w3-padding-small">
+						<p><h2>Germán Oliva Eraso</h2></p>
+						<p><h3>Ingeniero Industrial</h3></p>
+						<p><h4>Especialista en Gerencia de Negocios</h4></p>
+					</div>
+					<button class="w3-button w3-block w3-light-grey"></button>
+				</div>				
+		   
+        </header>
+        
+        <nav>
+				<div class="w3-bar">
+					<button class="w3-button w3-lime w3-small"><a href="index.html">Perfil</a></button>
+					<button class="w3-button w3-black w3-small"><a href="educacion.html">Educación</a></button>
+					<button class="w3-button w3-light-green w3-small"><a href="experiencia.html">Experiencia</a></button>
+				</div>        
+        </nav>
+
+        <section class="w3-container w3-padding-small">
+				<h2>Estudios</h2>
+				<article id="perfil">
+					<table class="w3-table-all w3-hoverable w3-card-4">
+						<tr class="w3-light-blue">
+							<th>Año</th>
+							<th>Institución</th>
+							<th>Título Obtenido</th>
+						</tr>
+						<tr class="w3-hover-pale-blue">
+							<td>1992</td>
+							<td>Instituto Champagnat - Pasto</td>
+							<td>Bachiller Académico</td>
+						</tr>
+						<tr class="w3-hover-pale-blue">
+							<td>2000</td>
+							<td>Universidad Nacional de Colombia</td>
+							<td>Ingeniero Industrial</td>
+						</tr>
+						<tr class="w3-hover-pale-blue">
+							<td>2003</td>
+							<td>Universidad Jorge Tadeo Lozano</td>
+							<td>Especialista en Gerencia de Negocios</td>
+						</tr>
+					</table>	
+				</article>      
+        </section>
+        <section class="w3-container w3-padding-small">
+				<h3>Agregar Estudios</h3>
+				<form name="agregar_estudios" action="estudios.html" method="post" enctype="multipart/form-data" class="w3-container w3-card-4">
+					<select name="year" class="w3-select" required>
+						<option disabled selected>Seleccione el año</option>						
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+										
+					</select>
+					<label>Institución</label>
+					<input type="text" name="institucion" required class="w3-input w3-border">
+					<label>Título Obtenido</label>
+					<input type="text" name="titulo_obtenido" required class="w3-input w3-border">
+					<input type="button" class="w3-button w3-lime" value="Enviar">		
+				</form>       
+        </section>
+
+        <footer>
+        		<div class="w3-panel w3-white w3-topbar w3-bottombar w3-border-light-blue">
+					<h4><span class="far fa-address-card"> <span> Información de contacto</h4>
+					<p>Calle 100 No 64-51 Torre 3 – Apartamento 701 </p>
+					<p>Edificio Altavista - Bogotá – Colombia</p>
+					<p><span class="fas fa-phone"> <span> Tel. (+57) - 1 – 309 33 39</p>
+					<p><span class="fa fa-mobile-phone"> </span> Cel. (+57) - 300 613 74 97 <i class='fab fa-whatsapp' style='color:green;'></i></p>
+					<p><span class="far fa-envelope"> </span> Email: german.oliva@gmail.com</p>
+				</div>      
+        </footer>
+
+    </body>
+</html>
